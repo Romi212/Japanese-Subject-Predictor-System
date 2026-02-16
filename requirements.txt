@@ -1,0 +1,15 @@
+nltk
+numpy
+matplotlib
+spacy
+requests
+ginza
+ja_ginza
+transformers
+fugashi
+ipadic
+unidic_lite
+torch
+gdown
+graphviz
+ipython

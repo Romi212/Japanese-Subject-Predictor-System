@@ -1,0 +1,20 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts and large files
+/models/
+*.zip
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
