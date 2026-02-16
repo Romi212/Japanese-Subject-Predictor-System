@@ -32,17 +32,13 @@ bert_model = BertForMaskedLM.from_pretrained(model_name)
 
 from transformers import AutoModelForTokenClassification,  BertTokenizer, AutoModelForSequenceClassification
 
-modelAddMASK = AutoModelForTokenClassification.from_pretrained(
-  "models/subject_insertion_model"
-)
+model_source = "Romi121/subject-insertion-model"
+particle_model_source = "Romi121/particle_prediction_model"
+modelAddMASK = AutoModelForTokenClassification.from_pretrained(model_source)
 
-tokenizerAddMASK = BertTokenizer.from_pretrained(
-  "models/subject_insertion_model"
-)
+tokenizerAddMASK = BertTokenizer.from_pretrained(model_source)
 
-modelParticle = AutoModelForSequenceClassification.from_pretrained(
-  "models/particle_prediction_model"
-)
+modelParticle = AutoModelForSequenceClassification.from_pretrained(  particle_model_source)
 
 """Objetivo: Dado un párrafo en japonés se debe predecir el sujeto de la oración seleccionada.
 
