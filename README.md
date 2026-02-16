@@ -15,7 +15,7 @@ Japanese frequently omits explicit subjects, which poses challenges for NLP syst
 All trained models are hosted on Hugging Face Hub [here](https://huggingface.co/Romi121) and automatically downloaded at runtime.
 
 ## Usage
-See `demo.ipynb` for a complete example.
+See `FindSubjectJapaneseDEMO.ipynb` for a complete example.
 
 ## Results
 Top-5 accuracy:
